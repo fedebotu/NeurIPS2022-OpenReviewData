@@ -1,6 +1,6 @@
-# Crawl and Visualize ICLR 2023 OpenReview Data
+# Crawl and Visualize NeurIPS 2022 OpenReview Data
 
-[![Website](https://badgen.net/badge/Open/webpage/purple?icon=chrome)](https://fedebotu.github.io/ICLR2023-OpenReviewData/submissions.html)[![Drive](https://badgen.net/badge/Download/dataset/blue?icon=chrome)](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing)
+[![Website](https://badgen.net/badge/Open/webpage/purple?icon=chrome)](https://fedebotu.github.io/NeurIPS2022-OpenReviewData/submissions.html)[![Drive](https://badgen.net/badge/Download/dataset/blue?icon=chrome)](https://drive.google.com/drive/folders/1iAuAVSq36n8fikUkmZamWO0WU7uVRSLi?usp=sharing)
 
 
 
@@ -9,12 +9,12 @@
     <img src="images/wordcloud_nice.png" width="720"/>
 </p>
 
-&rarr; Open full submission list [here](https://fedebotu.github.io/ICLR2023-OpenReviewData/submissions.html)
+&rarr; Open full submission list [here](https://fedebotu.github.io/NeurIPS2022-OpenReviewData/submissions.html)
 &rarr; Download datasets [here](https://drive.google.com/drive/folders/1wCZrwNpjBHq0mXni3xLNrlEMrGUDK-Cl?usp=sharing)
 
 ## Description
 
-This repository contains code to crawl and visualize the data from the [ICLR 2023 OpenReview](https://openreview.net/group?id=ICLR.cc/2023/Conference). Crawling is done via parallel `requests` directly to OpenReview's API, which is way faster than `selenium` - in the order of `10-100x`. It also saves datasets that can be used for further analysis, including all reviews and rebuttals and PDF files metadata and text.
+This repository contains code to crawl and visualize the data from the [NeurIPS 2022 OpenReview](https://openreview.net/group?id=NeurIPS.cc/2022/Conference). Crawling is done via parallel `requests` directly to OpenReview's API, which is way faster than `selenium` - in the order of `10-100x`. It also saves datasets that can be used for further analysis, including all reviews and rebuttals and PDF files metadata and text.
 
 
 
@@ -72,9 +72,14 @@ And run the notebooks under the `notebooks/`  folder:
     <img src="images/review_length_by_confidence_20221105.png" width="720"/>
 </p> 
 
-### Paper lenght (pages) vs Rating
+### Paper Lengths (pages) vs Rating
 <p align="center">
     <img src="images/num_pages_vs_ratings_20221105.png" width="720"/>
+</p> 
+
+### Top 50 Authors
+<p align="center">
+    <img src="images/top_authors.png" width="720"/>
 </p> 
 
 ## Feedback
